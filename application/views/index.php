@@ -27,9 +27,9 @@
                         <a class="nav-link" href="<?= base_url('kontak') ?>">Contact</a>
                     </li>
                 </ul>
-                <div class="ml-auto my-2 my-lg-0">
+                <!-- <div class="ml-auto my-2 my-lg-0">
                     <button class="btn btn-dark rounded-pill">Download Now</button>
-                </div>
+                </div> -->
             </div>
         </div>
     </nav>
@@ -43,14 +43,22 @@
                         <!-- <div class="badge mb-2"><span class="icon mr-1"><span class="mai-globe"></span></span> #2 Editor
                             Choice App
                             of 2020</div> -->
-                        <h1 class="mb-4">Manage your Finance easier</h1>
-                        <p class="mb-4">Mobster has features to view and manage <br>
-                            our finances, such as transfer, and statistics.</p>
-                        <a href="#" class="btn btn-primary rounded-pill">Get App Now</a>
+
+                        <br>
+                        <br>
+
+                        <h1 class="mb-4 text-primary">Baiti Jannati</h1>
+                        <div class="text-muted">Merupakan salah satu lembaga sosial
+                            kemasyarakatan atau panti asuhan yang memiliki tanggung jawab memberikan
+                            kesejahteraan jasmani maupun rohani teruntuk bagi <b>anak yatim, piatu dan dhuafa</b>.
+                        </div>
+                        <br>
+                        <a href="#" class="btn btn-primary rounded-pill">Login</a>
+                        <a href="#" class="btn btn-primary rounded-pill">Register</a>
                     </div>
                     <div class="col-lg-6 d-none d-lg-block wow zoomIn">
-                        <div class="img-place mobile-preview shadow floating-animate">
-                            <img src="<?= base_url(); ?>assets/user/img/app_preview_1.png" alt="">
+                        <div class="img-place  shadow floating-animate">
+                            <img src="<?= base_url(); ?>assets/user/img/gambar.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -93,17 +101,19 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 py-3">
-                        <div class="img-place mobile-preview shadow wow zoomIn">
-                            <img src="<?= base_url(); ?>assets/user/img/app_preview_2.png" alt="">
+                        <div class="img-place wow zoomIn">
+                            <img src="<?= base_url(); ?>assets/user/img/gambar2.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 py-3 mt-lg-5">
+                        <h1 class="mb-4 text-primary">Cara Berdonasi</h1>
                         <div class="iconic-list">
                             <div class="iconic-item wow fadeInUp">
                                 <div class="iconic-md iconic-text bg-warning fg-white rounded-circle">
                                     <span class="mai-cube"></span>
                                 </div>
                                 <div class="iconic-content">
+
                                     <h5>Powerful Features</h5>
                                     <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                                         diam nonumy eirmod
@@ -142,7 +152,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 offset-lg-1 py-3 mt-lg-5 wow fadeInUp">
-                        <h1 class="mb-4">Ecommerce business opperate easilly</h1>
+                        <h1 class="mb-4 text-primary">Sejarah Baiti Jannati</h1>
                         <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, molestiae,
                             perspiciatis
                             laboriosam quia placeat recusandae repudiandae corrupti similique delectus, aliquam commodi
@@ -151,8 +161,8 @@
                         <a href="#" class="btn btn-outline-primary rounded-pill">How it works</a>
                     </div>
                     <div class="col-lg-5 py-3">
-                        <div class="img-place mobile-preview shadow wow zoomIn">
-                            <img src="<?= base_url(); ?>assets/user/img/app_preview_3.png" alt="">
+                        <div class="img-place img-thumbnail   shadow wow zoomIn">
+                            <img src="<?= base_url(); ?>assets/user/img/anak_yatim.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -280,7 +290,7 @@
     </div>
 
     <div class="page-section bg-image bg-image-overlay-dark"
-        style="background-image: url(<?= base_url(); ?>assets/user/img/bg_testimonials.jpg);">
+        style="background-image: url(<?= base_url(); ?>assets/user/img/gambar_baiti.jpg);">
         <div class="container fg-white">
             <div class="row">
                 <div class="col-md-8 col-lg-6 offset-lg-1 wow fadeInUp">
@@ -299,7 +309,7 @@
         </div>
     </div>
 
-    <div class="page-section">
+    <!-- <div class="page-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 py-3 mb-5 mb-lg-0">
@@ -334,5 +344,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </body>

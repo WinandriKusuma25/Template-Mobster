@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark navbar-floating">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="<?= base_url(); ?>assets/user/favicon-light.png" alt="" width="40">
+                <img src="<?= base_url(); ?>assets/user/logo.png" alt="" width="70">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
                 aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,13 +11,9 @@
 
             <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
-                    <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Home</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="<?= base_url('beranda') ?>">Homepage 1</a>
-                            <a class="dropdown-item active" href="<?= base_url('beranda2') ?>">Homepage 2</a>
-                        </div>
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="<?= base_url('beranda2') ?>">Beranda</a>
+
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('tentang') ?>">About</a>
@@ -42,17 +38,18 @@
             <div class="container fg-white h-100">
                 <div class="row align-items-center h-100">
                     <div class="col-lg-6 wow fadeInUp">
-                        <div class="badge badge-soft mb-2">#1 Finances App on 2020</div>
-                        <h1 class="mb-4 fw-normal">Best app for your modern lifestyle</h1>
-                        <p class="mb-4">Mobster has features to view and manage <br>
-                            our finances, such as transfer, and statistics.</p>
-
-                        <a href="#" class="btn btn-dark">Get Started</a>
+                        <div class="badge badge-soft mb-2">Baiti Jannati</div>
+                        <h1 class="mb-4 fw-normal">Baiti Jannati</h1>
+                        <p class="mb-4">Merupakan salah satu lembaga sosial
+                            kemasyarakatan atau panti asuhan yang memiliki tanggung jawab memberikan
+                            kesejahteraan jasmani maupun rohani teruntuk bagi <b>anak yatim, piatu dan dhuafa</b>.</p>
+                        <a href="#" class="btn btn-outline-light rounded-pill">Login</a>
+                        <a href="#" class="btn btn-outline-light rounded-pill">Register</a>
 
                     </div>
                     <div class="col-lg-6 d-none d-lg-block wow zoomIn">
-                        <div class="img-place mobile-preview shadow floating-animate">
-                            <img src="<?= base_url(); ?>assets/user/img/app_showcase.svg" alt="">
+                        <div class="img-place shadow floating-animate">
+                            <img src="<?= base_url(); ?>assets/user/img/gambar.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -60,6 +57,87 @@
         </div>
     </div>
 
+    <div class="position-realive bg-image"
+        style="background-image: url(<?= base_url(); ?>assets/user/img/pattern_1.svg);">
+
+
+        <div class="page-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-1 py-3 mt-lg-5 wow fadeInUp">
+                        <h3 class="mb-4 text-primary">Sejarah Baiti Jannati</h3>
+                        <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, molestiae,
+                            perspiciatis
+                            laboriosam quia placeat recusandae repudiandae corrupti similique delectus, aliquam commodi
+                            possimus
+                            eveniet optio magnam quis vel. Reiciendis, fuga excepturi.</p>
+                        <a href="#" class="btn btn-primary rounded-pill">Baca Selengkapnya</a>
+                    </div>
+                    <div class="col-lg-5 py-3">
+                        <div class="img-place img-thumbnail   shadow wow zoomIn">
+                            <img src="<?= base_url(); ?>assets/user/img/anak_yatim.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-lg-5 py-3">
+                        <div class="img-place wow zoomIn">
+                            <img src="<?= base_url(); ?>assets/user/img/gambar3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 py-3 mt-lg-5">
+                        <center>
+                            <h3 class="mb-4 text-primary">Mari Berdonasi</h3>
+                        </center>
+                        <div class="iconic-list">
+                            <div class="iconic-item wow fadeInUp">
+                                <div class="iconic-md iconic-text bg-warning fg-white rounded-circle">
+                                    <span class="mai-cube"></span>
+                                </div>
+                                <div class="iconic-content">
+
+                                    <h5>Powerful Features</h5>
+                                    <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                                        diam nonumy eirmod
+                                        tempor invidunt ut labore et dolore</p>
+                                </div>
+                            </div>
+                            <div class="iconic-item wow fadeInUp">
+                                <div class="iconic-md iconic-text bg-info fg-white rounded-circle">
+                                    <span class="mai-shield"></span>
+                                </div>
+                                <div class="iconic-content">
+                                    <h5>Fully Secured</h5>
+                                    <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                                        diam nonumy eirmod
+                                        tempor invidunt ut labore et dolore</p>
+                                </div>
+                            </div>
+                            <div class="iconic-item wow fadeInUp">
+                                <div class="iconic-md iconic-text bg-indigo fg-white rounded-circle">
+                                    <span class="mai-desktop-outline"></span>
+                                </div>
+                                <div class="iconic-content">
+                                    <h5>Easy Monitoring</h5>
+                                    <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                                        diam nonumy eirmod
+                                        tempor invidunt ut labore et dolore</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+    </div>
     <div class="page-section no-scroll">
         <div class="container">
             <h2 class="text-center wow fadeIn">Our Main Features</h2>
@@ -113,8 +191,10 @@
                 </div>
                 <div class="col-lg-5 pl-lg-5 wow fadeInUp">
                     <h2 class="mb-4">All kind of business tools integration</h2>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia repellendus illo,
-                        possimus magni cumque, voluptatem et necessitatibus consequatur perspiciatis laborum temporibus
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia repellendus
+                        illo,
+                        possimus magni cumque, voluptatem et necessitatibus consequatur perspiciatis laborum
+                        temporibus
                         sint dolorem porro, eaque quo sequi. Tempora, voluptates quibusdam?</p>
                     <a href="#" class="btn btn-outline-primary rounded-pill">See Addons</a>
                 </div>
@@ -130,7 +210,8 @@
                         <div class="iconic-item wow fadeInUp">
                             <div class="iconic-content">
                                 <h5>Powerful Features</h5>
-                                <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                                <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                                    diam
                                     nonumy eirmod tempor invidunt ut labore et dolore</p>
                             </div>
                             <div class="iconic-md iconic-text bg-warning fg-white rounded-circle">
@@ -140,7 +221,8 @@
                         <div class="iconic-item wow fadeInUp">
                             <div class="iconic-content">
                                 <h5>Fully Secured</h5>
-                                <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                                <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                                    diam
                                     nonumy eirmod tempor invidunt ut labore et dolore</p>
                             </div>
                             <div class="iconic-md iconic-text bg-info fg-white rounded-circle">
@@ -150,7 +232,8 @@
                         <div class="iconic-item wow fadeInUp">
                             <div class="iconic-content">
                                 <h5>Easy Monitoring</h5>
-                                <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                                <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                                    diam
                                     nonumy eirmod tempor invidunt ut labore et dolore</p>
                             </div>
                             <div class="iconic-md iconic-text bg-indigo fg-white rounded-circle">
@@ -172,7 +255,8 @@
                             </div>
                             <div class="iconic-content">
                                 <h5>Powerful Features</h5>
-                                <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                                <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                                    diam
                                     nonumy eirmod tempor invidunt ut labore et dolore</p>
                             </div>
                         </div>
@@ -182,7 +266,8 @@
                             </div>
                             <div class="iconic-content">
                                 <h5>Fully Secured</h5>
-                                <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                                <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                                    diam
                                     nonumy eirmod tempor invidunt ut labore et dolore</p>
                             </div>
                         </div>
@@ -192,7 +277,8 @@
                             </div>
                             <div class="iconic-content">
                                 <h5>Easy Monitoring</h5>
-                                <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                                <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                                    diam
                                     nonumy eirmod tempor invidunt ut labore et dolore</p>
                             </div>
                         </div>
@@ -210,7 +296,8 @@
             <div class="row justify-content-center text-center wow fadeInUp">
                 <div class="col-lg-6">
                     <h2 class="mb-3">Get awesome features, without extra charges</h2>
-                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores non magnam, quis
+                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores non magnam,
+                        quis
                         aliquid dolor magni</p>
 
                     <div class="btn-group btn-group-toggle rounded-pill btn-switch" data-toggle="buttons">
@@ -282,7 +369,8 @@
                         <span class="icon mai-star-half"></span>
                     </div>
 
-                    <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem distinctio esse
+                    <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem distinctio
+                        esse
                         eum laudantium necessitatibus autem perferendis quod ipsum eaque.</div>
 
                     <div class="avatar mt-3">
@@ -304,7 +392,8 @@
                         <span class="icon mai-star-half"></span>
                     </div>
 
-                    <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem distinctio esse
+                    <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem distinctio
+                        esse
                         eum laudantium necessitatibus autem perferendis quod ipsum eaque.</div>
 
                     <div class="avatar mt-3">
@@ -326,7 +415,8 @@
                         <span class="mai-star"></span>
                     </div>
 
-                    <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem distinctio esse
+                    <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem distinctio
+                        esse
                         eum laudantium necessitatibus autem perferendis quod ipsum eaque.</div>
 
                     <div class="avatar mt-3">
@@ -350,7 +440,8 @@
                 <div class="col-lg-5 py-3 wow fadeInUp">
                     <h2 class="mb-4">Frequently <br> asked question</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, minus id consectetur
-                        accusantium illum necessitatibus, non quia sit laboriosam aut libero. Maiores neque velit modi,
+                        accusantium illum necessitatibus, non quia sit laboriosam aut libero. Maiores neque velit
+                        modi,
                         mollitia nostrum alias quibusdam et.</p>
 
                     <p class="fg-primary fw-medium">Need more helps?</p>
@@ -392,7 +483,8 @@
                             <div id="collapse2" class="collapse show" aria-labelledby="headingFive"
                                 data-parent="#accordionFAQ">
                                 <div class="accordion-content">
-                                    <p>New to Google Pay and already seeing payment methods? If you paid for something
+                                    <p>New to Google Pay and already seeing payment methods? If you paid for
+                                        something
                                         through Google in the past, Google Pay saved your card.</p>
                                 </div>
                             </div>
@@ -406,14 +498,16 @@
                             <div id="collapse3" class="collapse" aria-labelledby="headingSix"
                                 data-parent="#accordionFAQ">
                                 <div class="accordion-content">
-                                    <p>If you see this error message, wait 24 hours and try to add your card again.</p>
+                                    <p>If you see this error message, wait 24 hours and try to add your card again.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item wow fadeInRight">
                             <div class="accordion-trigger" id="headingSeven">
                                 <button class="btn collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Credit &
+                                    data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Credit
+                                    &
                                     Debit cards</button>
                             </div>
                             <div id="collapse4" class="collapse" aria-labelledby="headingSeven"
@@ -428,7 +522,8 @@
                                         <li>Visa Electron (outside U.S. only)</li>
                                         <li>Elo credit cards (Brazil only; Elo debit cards aren’t accepted)</li>
                                     </ul>
-                                    <p>The types of cards accepted by Google services vary by location and product.</p>
+                                    <p>The types of cards accepted by Google services vary by location and product.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -436,18 +531,22 @@
                         <div class="accordion-item wow fadeInRight">
                             <div class="accordion-trigger" id="headingEight">
                                 <button class="btn collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Send money
+                                    data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">Send
+                                    money
                                     to friends or family</button>
                             </div>
                             <div id="collapse5" class="collapse" aria-labelledby="headingEight"
                                 data-parent="#accordionFAQ">
                                 <div class="accordion-content">
                                     <p>This feature is only available in the US. For the US territories, this is
-                                        supported only if the debit card was issued under a US-licensed bank. If you'd
-                                        like to know in advance whether your payment to or from a US territory will go
+                                        supported only if the debit card was issued under a US-licensed bank. If
+                                        you'd
+                                        like to know in advance whether your payment to or from a US territory will
+                                        go
                                         through, please check with your card issuing bank.</p>
 
-                                    <p>You can use Google Pay to send money to friends and family or to someone using
+                                    <p>You can use Google Pay to send money to friends and family or to someone
+                                        using
                                         their email address or phone number. Google Pay charges no fees.</p>
 
                                     <p>If you have a problem sending money, here is a list of likely reasons.</p>
@@ -458,14 +557,17 @@
                         <div class="accordion-item wow fadeInRight">
                             <div class="accordion-trigger" id="headingNine">
                                 <button class="btn collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">How long it
+                                    data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">How
+                                    long it
                                     usually takes to send or receive money</button>
                             </div>
                             <div id="collapse6" class="collapse" aria-labelledby="headingNine"
                                 data-parent="#accordionFAQ">
                                 <div class="accordion-content">
-                                    <p>For the best Google Pay experience, we recommend using a debit card whenever you
-                                        send or receive money from friends and family. With a debit card, sending and
+                                    <p>For the best Google Pay experience, we recommend using a debit card whenever
+                                        you
+                                        send or receive money from friends and family. With a debit card, sending
+                                        and
                                         receiving money is usually the fastest option.</p>
                                 </div>
                             </div>

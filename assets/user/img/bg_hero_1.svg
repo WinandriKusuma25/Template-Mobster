@@ -1,10 +1,10 @@
 <svg id="Group_2" data-name="Group 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="769" viewBox="0 0 1366 769">
   <defs>
     <linearGradient id="linear-gradient" x1="1.193" y1="0.101" x2="-0.717" y2="1.389" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#a52eff"/>
-      <stop offset="0.498" stop-color="#6747f8"/>
-      <stop offset="0.647" stop-color="#6049f7"/>
-      <stop offset="0.863" stop-color="#4c51f4"/>
+      <stop offset="0" stop-color="#2e59d9"/>
+      <stop offset="0.498" stop-color="#2e59d9"/>
+      <stop offset="0.647" stop-color="#4429f2"/>
+      <stop offset="0.863" stop-color="#2e59d9"/>
       <stop offset="1" stop-color="#3d58f3"/>
     </linearGradient>
     <linearGradient id="linear-gradient-2" x1="1.171" y1="0.022" x2="0.189" y2="1.068" gradientUnits="objectBoundingBox">
