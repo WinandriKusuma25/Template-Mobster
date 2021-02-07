@@ -25,3 +25,38 @@
 
     <link rel="stylesheet" href="<?= base_url(); ?>assets/user/css/mobster.css">
 </head>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark navbar-floating">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="<?= base_url(); ?>assets/user/logo.png" alt="" width="70">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link active" href="<?= base_url('beranda2') ?>">Beranda</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= base_url('tentang') ?>">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= base_url('berita') ?>">Berita</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= base_url('kontak') ?>">Kontak</a>
+                </li>
+
+            </ul>
+            <div class="ml-auto my-2 my-lg-0">
+                <button class="btn btn-primary rounded-pill">Download Now</button>
+            </div>
+        </div>
+    </div>
+</nav>

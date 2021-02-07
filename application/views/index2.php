@@ -1,37 +1,4 @@
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-floating">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="<?= base_url(); ?>assets/user/logo.png" alt="" width="70">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
-                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link active" href="<?= base_url('beranda2') ?>">Beranda</a>
-
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('tentang') ?>">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('berita') ?>">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('kontak') ?>">Contact</a>
-                    </li>
-                </ul>
-                <div class="ml-auto my-2 my-lg-0">
-                    <button class="btn btn-primary rounded-pill">Download Now</button>
-                </div>
-            </div>
-        </div>
-    </nav>
-
     <div class="page-hero-section bg-image hero-home-2"
         style="background-image: url(<?= base_url(); ?>assets/user/img/bg_hero_2.svg);">
         <div class="hero-caption">
@@ -59,8 +26,6 @@
 
     <div class="position-realive bg-image"
         style="background-image: url(<?= base_url(); ?>assets/user/img/pattern_1.svg);">
-
-
         <div class="page-section">
             <div class="container">
                 <div class="row">
@@ -130,17 +95,13 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
-
-
-
     </div>
+
     <div class="page-section no-scroll">
         <div class="container">
-            <h2 class="text-center wow fadeIn">Our Main Features</h2>
+            <h3 class="text-center wow fadeIn text-primary">Kegiatan Kami</h3>
 
             <div class="row justify-content-center mt-5">
                 <div class="col-lg-10">
@@ -148,9 +109,9 @@
                         <div class="col-md-6 col-lg-4 py-3 wow fadeInLeft">
                             <div class="card card-body border-0 text-center shadow pt-5">
                                 <div class="svg-icon mx-auto mb-4">
-                                    <img src="<?= base_url(); ?>assets/user/img/icons/payment.png" alt="">
+                                    <img src="<?= base_url(); ?>assets/user/img/icons/love.png" width="100px" alt="">
                                 </div>
-                                <h5 class="fg-gray">Secure Payment</h5>
+                                <h5 class="fg-gray">Santunan</h5>
                                 <p class="fs-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
                                     voluptates esse, sunt reprehenderit</p>
                             </div>
@@ -158,9 +119,9 @@
                         <div class="col-md-6 col-lg-4 py-3 wow fadeInUp">
                             <div class="card card-body border-0 text-center shadow pt-5">
                                 <div class="svg-icon mx-auto mb-4">
-                                    <img src="<?= base_url(); ?>assets/user/img/icons/customizable.png" alt="">
+                                    <img src="<?= base_url(); ?>assets/user/img/icons/love2.png" width="100px" alt="">
                                 </div>
-                                <h5 class="fg-gray">Easily Customizable</h5>
+                                <h5 class="fg-gray">Bakti Sosial</h5>
                                 <p class="fs-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
                                     voluptates esse, sunt reprehenderit</p>
                             </div>
@@ -168,9 +129,10 @@
                         <div class="col-md-6 col-lg-4 py-3 wow fadeInRight">
                             <div class="card card-body border-0 text-center shadow pt-5">
                                 <div class="svg-icon mx-auto mb-4">
-                                    <img src="<?= base_url(); ?>assets/user/img/icons/concept.png" alt="">
+                                    <img src="<?= base_url(); ?>assets/user/img/icons/education.png" width="100px"
+                                        alt="">
                                 </div>
-                                <h5 class="fg-gray">Powerful Concept</h5>
+                                <h5 class="fg-gray">Beasiswa Pendidikan</h5>
                                 <p class="fs-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
                                     voluptates esse, sunt reprehenderit</p>
                             </div>
@@ -180,6 +142,29 @@
             </div>
         </div>
     </div>
+
+
+    <div class="page-section bg-image bg-image-overlay-dark"
+        style="background-image: url(<?= base_url(); ?>assets/user/img/gambar_baiti.jpg);">
+        <div class="container fg-white">
+            <div class="row">
+                <div class="col-md-8 col-lg-6 offset-lg-1 wow fadeInUp">
+                    <h2 class="mb-5 fg-white fw-normal">Kata-Kata Bijak</h2>
+                    <p class="fs-large font-italic">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
+                        voluptates
+                        facere explicabo! Rerum necessitatibus cum qui veritatis reprehenderit, neque sapiente
+                        consequatur atque
+                        eaque molestias, est, quod totam quo laudantium ratione.</p>
+                    <p class="fs-large fg-grey fw-medium mb-5">John Doe, UI Designer</p>
+
+                    <a href="#" class="btn btn-outline-light rounded-pill">Read Stories <span
+                            class="mai-chevron-forward"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <div class="page-section no-scroll">
         <div class="container">
@@ -289,150 +274,6 @@
     </div>
 
     <hr>
-
-    <!-- Pricing Table -->
-    <div class="page-section">
-        <div class="container">
-            <div class="row justify-content-center text-center wow fadeInUp">
-                <div class="col-lg-6">
-                    <h2 class="mb-3">Get awesome features, without extra charges</h2>
-                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores non magnam,
-                        quis
-                        aliquid dolor magni</p>
-
-                    <div class="btn-group btn-group-toggle rounded-pill btn-switch" data-toggle="buttons">
-                        <label class="btn active">
-                            <input type="radio" name="options" id="option1" checked> Monthly
-                        </label>
-                        <label class="btn">
-                            <input type="radio" name="options" id="option2"> Annually
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <div class="pricing-table mt-5 wow fadeInUp">
-                <div class="pricing-item active no-transform">
-                    <div class="pricing-header">
-                        <h5>Business Plan</h5>
-                        <h1 class="fw-normal">$49.00</h1>
-                    </div>
-                    <div class="pricing-body">
-                        <ul class="theme-list">
-                            <li class="list-item">Push Notification</li>
-                            <li class="list-item">Unlimited Bandwith</li>
-                            <li class="list-item">Realtime Database</li>
-                            <li class="list-item">Monthly Backup</li>
-                            <li class="list-item">24/7 Support</li>
-                        </ul>
-                    </div>
-                    <button class="btn btn-dark">Choose Plan</button>
-                </div>
-                <div class="pricing-item">
-                    <div class="pricing-header">
-                        <h5>Starter Plan</h5>
-                        <h1 class="fw-normal">$24.00</h1>
-                    </div>
-                    <div class="pricing-body">
-                        <ul class="theme-list">
-                            <li class="list-item">Push Notification</li>
-                            <li class="list-item">Unlimited Bandwith</li>
-                            <li class="list-item">Realtime Database</li>
-                            <li class="list-item">Monthly Backup</li>
-                            <li class="list-item">24/7 Support</li>
-                        </ul>
-                    </div>
-                    <button class="btn btn-dark">Choose Plan</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <hr>
-
-    <!-- Testimonials -->
-    <div class="page-section">
-        <div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-6 wow fadeIn">
-                    <h2>Meet client satisfaction by using product</h2>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="owl-carousel stack-carousel mt-5 wow fadeInUp">
-                <div class="item">
-                    <div class="ratings fs-small py-3">
-                        <span class="icon mai-star"></span>
-                        <span class="icon mai-star"></span>
-                        <span class="icon mai-star"></span>
-                        <span class="icon mai-star"></span>
-                        <span class="icon mai-star-half"></span>
-                    </div>
-
-                    <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem distinctio
-                        esse
-                        eum laudantium necessitatibus autem perferendis quod ipsum eaque.</div>
-
-                    <div class="avatar mt-3">
-                        <div class="avatar-img">
-                            <img src="<?= base_url(); ?>assets/user/img/person/person_1.png" alt="">
-                        </div>
-                        <div class="avatar-caption">
-                            <p class="mb-0 fw-medium fg-primary">Galih Raugana</p>
-                            <div class="fs-vsmall fw-medium">UI Designer</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="ratings fs-small py-3">
-                        <span class="icon mai-star"></span>
-                        <span class="icon mai-star"></span>
-                        <span class="icon mai-star"></span>
-                        <span class="icon mai-star"></span>
-                        <span class="icon mai-star-half"></span>
-                    </div>
-
-                    <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem distinctio
-                        esse
-                        eum laudantium necessitatibus autem perferendis quod ipsum eaque.</div>
-
-                    <div class="avatar mt-3">
-                        <div class="avatar-img">
-                            <img src="<?= base_url(); ?>assets/user/img/person/person_2.png" alt="">
-                        </div>
-                        <div class="avatar-caption">
-                            <p class="mb-0 fw-medium fg-primary">Galih Raugana</p>
-                            <div class="fs-vsmall fw-medium">Graphic Designer</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="ratings fs-small py-3">
-                        <span class="icon mai-star"></span>
-                        <span class="icon mai-star"></span>
-                        <span class="icon mai-star"></span>
-                        <span class="icon mai-star"></span>
-                        <span class="mai-star"></span>
-                    </div>
-
-                    <div class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem distinctio
-                        esse
-                        eum laudantium necessitatibus autem perferendis quod ipsum eaque.</div>
-
-                    <div class="avatar mt-3">
-                        <div class="avatar-img">
-                            <img src="<?= base_url(); ?>assets/user/img/person/person_3.png" alt="">
-                        </div>
-                        <div class="avatar-caption">
-                            <p class="mb-0 fw-medium fg-primary">Galih Raugana</p>
-                            <div class="fs-vsmall fw-medium">Data Analyst</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- FAQ -->
     <div class="page-section bg-light">
         <div class="container">
@@ -583,7 +424,7 @@
     <div class="page-section">
         <div class="container">
             <div class="text-center wow fadeIn">
-                <h2 class="mb-4">Our partners</h2>
+                <h3 class="mb-4 text-primary">Mitra Berbagi</h3>
                 <p>Become a <a href="#">partners?</a></p>
             </div>
             <div
