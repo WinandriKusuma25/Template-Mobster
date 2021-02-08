@@ -31,12 +31,12 @@
                 <div class="row">
                     <div class="col-lg-6 offset-lg-1 py-3 mt-lg-5 wow fadeInUp">
                         <h3 class="mb-4 text-primary">Sejarah Baiti Jannati</h3>
-                        <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, molestiae,
-                            perspiciatis
-                            laboriosam quia placeat recusandae repudiandae corrupti similique delectus, aliquam commodi
-                            possimus
-                            eveniet optio magnam quis vel. Reiciendis, fuga excepturi.</p>
-                        <a href="#" class="btn btn-primary rounded-pill">Baca Selengkapnya</a>
+                        <p class="mb-4">Dalam rangka melaksanakan kegiatan sosial di wilayah desa Bakalan kecamatan Bululawang terutama bagi adik dan saudara kita Yatim-Piatu atau terlantar, maka kami merasa perlu mengadakan kegiatan sosial dengan menyantuni, mendidik dan memberikan ketrampilan bagi anak Yatim Piatu agar dapat hidup lebih baik, mandiri dan sejahtera.	Dari kepedulian tersebut maka muncul sebuah gagasan dengan membuat Yayasan Rumah Cerdas Yatim Piatu yang kami beri nama ”BAITI JANNATI” (Rumahku Surgaku) dengan kegiatan utama yaitu 
+                        Memberikan santunan setiap bulan kepada anak Yatim Piatu, Memberikan bimbingan pendidikan dan ketrampilan, 
+                        Makan bersama anak yatim / piatu. <p>
+                        Sehubungan dengan rencana tersebut maka diperlukan para Donatur baik dari Dalam desa maupun dari luar desa agar kegiatan yang kami rencanakan dapat berjalan dengan lancar sesuai yang diharapkan. 
+</p>
+                        <!-- <a href="#" class="btn btn-primary rounded-pill">Baca Selengkapnya</a> -->
                     </div>
                     <div class="col-lg-5 py-3">
                         <div class="img-place img-thumbnail   shadow wow zoomIn">
@@ -55,7 +55,7 @@
                     </div>
                     <div class="col-lg-6 py-3 mt-lg-5">
                         <center>
-                            <h3 class="mb-4 text-primary">Mari Berdonasi</h3>
+                            <h3 class="mb-4 text-primary">Tujuan Baiti Jannati</h3>
                         </center>
                         <div class="iconic-list">
                             <div class="iconic-item wow fadeInUp">
@@ -64,32 +64,49 @@
                                 </div>
                                 <div class="iconic-content">
 
-                                    <h5>Powerful Features</h5>
-                                    <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                                        diam nonumy eirmod
-                                        tempor invidunt ut labore et dolore</p>
+                                    <h5>1. </h5>
+                                    <p class="fs-small">Mencari dan mendapatkan Donatur Tetap 
+                                    maupun Tidak Tetap yang hasilnya akan diberikan sepenuhnya kepada anak yatim / piatu.</p>
                                 </div>
                             </div>
                             <div class="iconic-item wow fadeInUp">
-                                <div class="iconic-md iconic-text bg-info fg-white rounded-circle">
-                                    <span class="mai-shield"></span>
+                                <div class="iconic-md iconic-text bg-warning fg-white rounded-circle">
+                                    <span class="mai-cube"></span>
                                 </div>
                                 <div class="iconic-content">
-                                    <h5>Fully Secured</h5>
-                                    <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                                        diam nonumy eirmod
-                                        tempor invidunt ut labore et dolore</p>
+                                    <h5>2. </h5>
+                                    <p class="fs-small">Memberikan santunan secara rutin perbulan kepada anak yatim /
+                                     piatu dari dana para donatur</p>
                                 </div>
                             </div>
                             <div class="iconic-item wow fadeInUp">
-                                <div class="iconic-md iconic-text bg-indigo fg-white rounded-circle">
-                                    <span class="mai-desktop-outline"></span>
+                                <div class="iconic-md iconic-text bg-warning fg-white rounded-circle">
+                                    <span class="mai-cube"></span>
                                 </div>
                                 <div class="iconic-content">
-                                    <h5>Easy Monitoring</h5>
-                                    <p class="fs-small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                                        diam nonumy eirmod
-                                        tempor invidunt ut labore et dolore</p>
+                                    <h5>3. </h5>
+                                    <p class="fs-small">Memberikan bimbingan pendidikan dan 
+                                    ketrampilan secara gratis kepada anak didik rumah cerdas ”BAITI JANNATI”</p>
+                                </div>
+                            </div>
+                            <div class="iconic-item wow fadeInUp">
+                                <div class="iconic-md iconic-text bg-warning fg-white rounded-circle">
+                                    <span class="mai-cube"></span>
+                                </div>
+                                <div class="iconic-content">
+                                    <h5>4. </h5>
+                                    <p class="fs-small">Membantu biaya pendidikan dan 
+                                    perlengkapan sekolah anak didik mulai dari tingkat TK sampai dengan SMP / MTs.</p>
+                                </div>
+                            </div>
+                            <div class="iconic-item wow fadeInUp">
+                                <div class="iconic-md iconic-text bg-warning fg-white rounded-circle">
+                                    <span class="mai-cube"></span>
+                                </div>
+                                <div class="iconic-content">
+                                    <h5>5. </h5>
+                                    <p class="fs-small">Mengadakan berbagai kegiatan yang dapat 
+                                    mendatangkan dana untuk selanjutnya diperuntukkan untuk anak yatim / piatu.</p>
                                 </div>
                             </div>
                         </div>
