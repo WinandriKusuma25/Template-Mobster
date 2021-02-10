@@ -129,8 +129,8 @@
                                     <img src="<?= base_url(); ?>assets/user/img/icons/love.png" width="100px" alt="">
                                 </div>
                                 <h5 class="fg-gray">Santunan</h5>
-                                <p class="fs-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-                                    voluptates esse, sunt reprehenderit</p>
+                                <p class="fs-small">Santunan yang kami adakan yaitu setiap 1 bulan sekali. Yaitu menyantuni anak 
+                                yatim, piatu, dan dhuafa yang ada di Desa Bakalan.</p>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 py-3 wow fadeInUp">
@@ -139,8 +139,8 @@
                                     <img src="<?= base_url(); ?>assets/user/img/icons/love2.png" width="100px" alt="">
                                 </div>
                                 <h5 class="fg-gray">Bakti Sosial</h5>
-                                <p class="fs-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-                                    voluptates esse, sunt reprehenderit</p>
+                                <p class="fs-small">Melakukan Bakti Sosial bagi warga yang mengalami kesusahan, misalnya
+                                kematian dan warga kurang mampu/p>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 py-3 wow fadeInRight">
@@ -150,8 +150,7 @@
                                         alt="">
                                 </div>
                                 <h5 class="fg-gray">Beasiswa Pendidikan</h5>
-                                <p class="fs-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-                                    voluptates esse, sunt reprehenderit</p>
+                                <p class="fs-small">Membantu SPP anak didik setiap bulan yang sudah sekolah SMP. </p>
                             </div>
                         </div>
                     </div>
@@ -167,12 +166,8 @@
             <div class="row">
                 <div class="col-md-8 col-lg-6 offset-lg-1 wow fadeInUp">
                     <h2 class="mb-5 fg-white fw-normal">Kata-Kata Bijak</h2>
-                    <p class="fs-large font-italic">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
-                        voluptates
-                        facere explicabo! Rerum necessitatibus cum qui veritatis reprehenderit, neque sapiente
-                        consequatur atque
-                        eaque molestias, est, quod totam quo laudantium ratione.</p>
-                    <p class="fs-large fg-grey fw-medium mb-5">John Doe, UI Designer</p>
+                    <p class="fs-large font-italic">Berbagi, Berkarya, dan Bermanfaat Bagi Sesama</p>
+                    <p class="fs-large fg-grey fw-medium mb-5">Baiti Jannati</p>
 
                     <a href="#" class="btn btn-outline-light rounded-pill">Read Stories <span
                             class="mai-chevron-forward"></span></a>
@@ -192,13 +187,9 @@
                     </div>
                 </div>
                 <div class="col-lg-5 pl-lg-5 wow fadeInUp">
-                    <h2 class="mb-4">All kind of business tools integration</h2>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia repellendus
-                        illo,
-                        possimus magni cumque, voluptatem et necessitatibus consequatur perspiciatis laborum
-                        temporibus
-                        sint dolorem porro, eaque quo sequi. Tempora, voluptates quibusdam?</p>
-                    <a href="#" class="btn btn-outline-primary rounded-pill">See Addons</a>
+                    <h2 class="mb-4">Telusuri kami di Instagram</h2>
+                    <p class="mb-4">Penasaran kami di Instagram? Silahkan kunjungi kami!</p>
+                    <a href="https://www.instagram.com/baitijannatibakalan/" class="btn btn-outline-primary rounded-pill">See Instagram</a>
                 </div>
             </div>
         </div>
