@@ -39,18 +39,21 @@
 
         <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link active" href="<?= base_url('beranda2') ?>">Beranda</a>
+                <li class="nav-item <?= activate_menu('beranda2') ?>">
+                    <a class="nav-link" href="<?= base_url('beranda2') ?>">Beranda</a>
 
                 </li>
-                <li class="nav-item">
+                <li class="nav-item <?= activate_menu('tentang') ?>" >
                     <a class="nav-link" href="<?= base_url('tentang') ?>">Profile</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item <?= activate_menu('berita') ?>" >
                     <a class="nav-link" href="<?= base_url('berita') ?>">Berita</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item <?= activate_menu('kontak') ?>" >
                     <a class="nav-link" href="<?= base_url('kontak') ?>">Kontak</a>
+                </li>
+                <li class="nav-item <?= activate_menu('keuangan') ?>" >
+                    <a class="nav-link" href="<?= base_url('keuangan') ?>">Keuangan</a>
                 </li>
 
             </ul>

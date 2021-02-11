@@ -46,7 +46,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-5 my-3 wow fadeInUp">
+                    <!-- <div class="col-md-6 col-lg-5 my-3 wow fadeInUp">
                         <div class="card-page">
                             <h3 class="fw-normal">Get in touch</h3>
                             <form method="POST" class="mt-3">
@@ -77,11 +77,12 @@
                                 </div>
                             </form>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-md-6 col-lg-7 my-3 wow fadeInUp">
                         <div class="card-page">
                             <div class="maps-container">
-                                <div id="myMap"></div>
+                                <!-- <div id="myMap"></div> -->
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.910770534654!2d112.65826975132039!3d-8.11056791016789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6212e176c0a61%3A0x6779fd1e68003fec!2sRumah%20Cerdas%20Yatim%20Piatu%20Baiti%20Jannati!5e0!3m2!1sid!2sid!4v1613019067752!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                             </div>
                         </div>
                     </div>
@@ -90,6 +91,7 @@
         </div>
     </div> <!-- .bg-light -->
 </body>
-<script src="<?= base_url(); ?>/assets/user/js/google-maps.js"></script>
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
+<!-- <script src="<?= base_url(); ?>/assets/user/js/google-maps.js"></script>
+<script async defer -->
+    <!-- src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script> -->
+    

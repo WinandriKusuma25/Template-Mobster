@@ -31,12 +31,12 @@
                 <div class="row">
                     <div class="col-lg-6 offset-lg-1 py-3 mt-lg-5 wow fadeInUp">
                         <h3 class="mb-4 text-primary">Sejarah Baiti Jannati</h3>
-                        <p class="mb-4">Dalam rangka melaksanakan kegiatan sosial di wilayah desa Bakalan kecamatan Bululawang terutama bagi adik dan saudara kita Yatim-Piatu atau terlantar, maka kami merasa perlu mengadakan kegiatan sosial dengan menyantuni, mendidik dan memberikan ketrampilan bagi anak Yatim Piatu agar dapat hidup lebih baik, mandiri dan sejahtera.	Dari kepedulian tersebut maka muncul sebuah gagasan dengan membuat Yayasan Rumah Cerdas Yatim Piatu yang kami beri nama ”BAITI JANNATI” (Rumahku Surgaku) dengan kegiatan utama yaitu 
-                        Memberikan santunan setiap bulan kepada anak Yatim Piatu, Memberikan bimbingan pendidikan dan ketrampilan, 
-                        Makan bersama anak yatim / piatu. <p>
-                        Sehubungan dengan rencana tersebut maka diperlukan para Donatur baik dari Dalam desa maupun dari luar desa agar kegiatan yang kami rencanakan dapat berjalan dengan lancar sesuai yang diharapkan. 
-</p>
-                        <!-- <a href="#" class="btn btn-primary rounded-pill">Baca Selengkapnya</a> -->
+                        <p class="mb-4" align="justify">Dalam rangka melaksanakan kegiatan sosial di wilayah desa Bakalan kecamatan Bululawang 
+                            terutama bagi adik dan saudara kita Yatim-Piatu atau terlantar, 
+                            maka kami merasa perlu mengadakan kegiatan sosial dengan menyantuni, 
+                            mendidik dan memberikan ketrampilan bagi anak Yatim Piatu agar dapat hidup lebih baik, 
+                            mandiri dan sejahtera . . . . . . </p>
+                        <a href="<?= base_url('tentang') ?>" class="btn btn-primary rounded-pill">Baca Selengkapnya</a>
                     </div>
                     <div class="col-lg-5 py-3">
                         <div class="img-place img-thumbnail   shadow wow zoomIn">
@@ -50,7 +50,7 @@
 
                     <div class="col-lg-5 py-3">
                         <div class="img-place wow zoomIn">
-                            <img src="<?= base_url(); ?>assets/user/img/gambar3.png" alt="">
+                            <img src="<?= base_url(); ?>assets/user/img/gambar5.png" alt="" width="50px">
                         </div>
                     </div>
                     <div class="col-lg-6 py-3 mt-lg-5">
@@ -59,52 +59,52 @@
                         </center>
                         <div class="iconic-list">
                             <div class="iconic-item wow fadeInUp">
-                                <div class="iconic-md iconic-text bg-warning fg-white rounded-circle">
-                                    <span class="mai-cube"></span>
+                                <div class="iconic-md iconic-text bg-primary fg-white rounded-circle">
+                                <span class="mai-cube"></span>
                                 </div>
                                 <div class="iconic-content">
 
-                                    <h5>1. </h5>
+                                    <h5>1. Donasi</h5>
                                     <p class="fs-small">Mencari dan mendapatkan Donatur Tetap 
                                     maupun Tidak Tetap yang hasilnya akan diberikan sepenuhnya kepada anak yatim / piatu.</p>
                                 </div>
                             </div>
                             <div class="iconic-item wow fadeInUp">
-                                <div class="iconic-md iconic-text bg-warning fg-white rounded-circle">
+                                <div class="iconic-md iconic-text bg-primary fg-white rounded-circle">
                                     <span class="mai-cube"></span>
                                 </div>
                                 <div class="iconic-content">
-                                    <h5>2. </h5>
+                                    <h5>2. Santunan Rutin </h5>
                                     <p class="fs-small">Memberikan santunan secara rutin perbulan kepada anak yatim /
                                      piatu dari dana para donatur</p>
                                 </div>
                             </div>
                             <div class="iconic-item wow fadeInUp">
-                                <div class="iconic-md iconic-text bg-warning fg-white rounded-circle">
+                                <div class="iconic-md iconic-text bg-primary fg-white rounded-circle">
                                     <span class="mai-cube"></span>
                                 </div>
                                 <div class="iconic-content">
-                                    <h5>3. </h5>
+                                    <h5>3. Bimbingan Pendidikan </h5>
                                     <p class="fs-small">Memberikan bimbingan pendidikan dan 
                                     ketrampilan secara gratis kepada anak didik rumah cerdas ”BAITI JANNATI”</p>
                                 </div>
                             </div>
                             <div class="iconic-item wow fadeInUp">
-                                <div class="iconic-md iconic-text bg-warning fg-white rounded-circle">
+                                <div class="iconic-md iconic-text bg-primary fg-white rounded-circle">
                                     <span class="mai-cube"></span>
                                 </div>
                                 <div class="iconic-content">
-                                    <h5>4. </h5>
+                                    <h5>4. Biaya Pendidikan </h5>
                                     <p class="fs-small">Membantu biaya pendidikan dan 
                                     perlengkapan sekolah anak didik mulai dari tingkat TK sampai dengan SMP / MTs.</p>
                                 </div>
                             </div>
                             <div class="iconic-item wow fadeInUp">
-                                <div class="iconic-md iconic-text bg-warning fg-white rounded-circle">
+                                <div class="iconic-md iconic-text  bg-primary fg-white rounded-circle">
                                     <span class="mai-cube"></span>
                                 </div>
                                 <div class="iconic-content">
-                                    <h5>5. </h5>
+                                    <h5>5. Pendanaan </h5>
                                     <p class="fs-small">Mengadakan berbagai kegiatan yang dapat 
                                     mendatangkan dana untuk selanjutnya diperuntukkan untuk anak yatim / piatu.</p>
                                 </div>
@@ -128,8 +128,9 @@
                                 <div class="svg-icon mx-auto mb-4">
                                     <img src="<?= base_url(); ?>assets/user/img/icons/love.png" width="100px" alt="">
                                 </div>
-                                <h5 class="fg-gray">Santunan</h5>
-                                <p class="fs-small">Santunan yang kami adakan yaitu setiap 1 bulan sekali. Yaitu menyantuni anak 
+                                <h5 class="fg-gray"><b>Santunan</b></h5>
+                                <p align="justify" class="fs-small">Santunan yang kami adakan yaitu setiap 1 bulan sekali. 
+                                    Yaitu menyantuni anak 
                                 yatim, piatu, dan dhuafa yang ada di Desa Bakalan.</p>
                             </div>
                         </div>
@@ -138,9 +139,9 @@
                                 <div class="svg-icon mx-auto mb-4">
                                     <img src="<?= base_url(); ?>assets/user/img/icons/love2.png" width="100px" alt="">
                                 </div>
-                                <h5 class="fg-gray">Bakti Sosial</h5>
-                                <p class="fs-small">Melakukan Bakti Sosial bagi warga yang mengalami kesusahan, misalnya
-                                kematian dan warga kurang mampu/p>
+                                <h5 class="fg-gray"><b>Bakti Sosial</b></h5>
+                                <p align="justify" class="fs-small">Melakukan Bakti Sosial bagi warga yang mengalami kesusahan, misalnya
+                                kematian dan warga kurang mampu dan warga yang membutuhkan.</p>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 py-3 wow fadeInRight">
@@ -149,8 +150,9 @@
                                     <img src="<?= base_url(); ?>assets/user/img/icons/education.png" width="100px"
                                         alt="">
                                 </div>
-                                <h5 class="fg-gray">Beasiswa Pendidikan</h5>
-                                <p class="fs-small">Membantu SPP anak didik setiap bulan yang sudah sekolah SMP. </p>
+                                <h5 class="fg-gray"><b>Beasiswa Pendidikan</b></h5>
+                                <p align="justify" class="fs-small">Membantu SPP anak didik setiap bulan yang sudah sekolah SMP. Meskipun membantunya
+                                    tidak penuh 100% tetapi tetap dibantu oleh yayasan.  </p>
                             </div>
                         </div>
                     </div>
@@ -183,13 +185,13 @@
             <div class="row align-items-center">
                 <div class="col-lg-7 wow fadeIn">
                     <div class="img-place">
-                        <img src="<?= base_url(); ?>assets/user/img/app_preview_4.png" alt="">
+                        <img src="<?= base_url(); ?>assets/user/img/app_preview_8.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-5 pl-lg-5 wow fadeInUp">
-                    <h2 class="mb-4">Telusuri kami di Instagram</h2>
+                    <h3 class="mb-4 text-primary">Telusuri kami di Instagram</h3>
                     <p class="mb-4">Penasaran kami di Instagram? Silahkan kunjungi kami!</p>
-                    <a href="https://www.instagram.com/baitijannatibakalan/" class="btn btn-outline-primary rounded-pill">See Instagram</a>
+                    <a href="https://www.instagram.com/baitijannatibakalan/" target="_blank" class="btn btn-primary rounded-pill">See Instagram</a>
                 </div>
             </div>
         </div>
