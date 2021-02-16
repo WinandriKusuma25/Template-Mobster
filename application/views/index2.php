@@ -453,44 +453,79 @@
             </div>
             <div
                 class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 justify-content-center align-items-center mt-5">
-                <div class="p-3 wow zoomIn">
+                <!-- <div class="p-3 wow zoomIn">
                     <div class="img-place client-img">
-                        <img src="<?= base_url(); ?>assets/user/img/clients/alter_sport.png" alt="">
+                        <img src="<?= base_url(); ?>assets/user/img/clients/M1.png" alt="">
                     </div>
                 </div>
                 <div class="p-3 wow zoomIn">
                     <div class="img-place client-img">
-                        <img src="<?= base_url(); ?>assets/user/img/clients/cleaning_service.png" alt="">
+                        <img src="<?= base_url(); ?>assets/user/img/clients/M2-01.png" alt="">
+                    </div>
+                </div> -->
+                <div class="p-3 wow zoomIn">
+                    <div class="img-place client-img">
+                        <img src="<?= base_url(); ?>assets/user/img/clients/M14-01.png" alt="">
                     </div>
                 </div>
                 <div class="p-3 wow zoomIn">
                     <div class="img-place client-img">
-                        <img src="<?= base_url(); ?>assets/user/img/clients/creative_photo.png" alt="">
+                        <img src="<?= base_url(); ?>assets/user/img/clients/M3-01.png" alt="">
+                    </div>
+                </div>
+                <!-- <div class="p-3 wow zoomIn">
+                    <div class="img-place client-img">
+                        <img src="<?= base_url(); ?>assets/user/img/clients/M4-01.png" alt="">
                     </div>
                 </div>
                 <div class="p-3 wow zoomIn">
                     <div class="img-place client-img">
-                        <img src="<?= base_url(); ?>assets/user/img/clients/global_tv.png" alt="">
+                        <img src="<?= base_url(); ?>assets/user/img/clients/M5-01.png" alt="">
                     </div>
                 </div>
                 <div class="p-3 wow zoomIn">
                     <div class="img-place client-img">
-                        <img src="<?= base_url(); ?>assets/user/img/clients/net_sport_tv.png" alt="">
+                        <img src="<?= base_url(); ?>assets/user/img/clients/M6-01.png" alt="">
                     </div>
                 </div>
                 <div class="p-3 wow zoomIn">
                     <div class="img-place client-img">
-                        <img src="<?= base_url(); ?>assets/user/img/clients/news_digital_tv.png" alt="">
+                        <img src="<?= base_url(); ?>assets/user/img/clients/M7-01.png" alt="">
+                    </div>
+                </div> -->
+                <div class="p-3 wow zoomIn">
+                    <div class="img-place client-img">
+                        <img src="<?= base_url(); ?>assets/user/img/clients/M8-01.png" alt="">
+                    </div>
+                </div>
+                <!-- <div class="p-3 wow zoomIn">
+                    <div class="img-place client-img">
+                        <img src="<?= base_url(); ?>assets/user/img/clients/M9-01.png" alt="">
                     </div>
                 </div>
                 <div class="p-3 wow zoomIn">
                     <div class="img-place client-img">
-                        <img src="<?= base_url(); ?>assets/user/img/clients/spa_beauty.png" alt="">
+                        <img src="<?= base_url(); ?>assets/user/img/clients/M10-01.png" alt="">
                     </div>
                 </div>
                 <div class="p-3 wow zoomIn">
                     <div class="img-place client-img">
-                        <img src="<?= base_url(); ?>assets/user/img/clients/trivier_group.png" alt="">
+                        <img src="<?= base_url(); ?>assets/user/img/clients/M11-01.png" alt="">
+                    </div>
+                </div>
+                <div class="p-3 wow zoomIn">
+                    <div class="img-place client-img">
+                        <img src="<?= base_url(); ?>assets/user/img/clients/M12-01.png" alt="">
+                    </div>
+                </div> -->
+                <!-- <div class="p-3 wow zoomIn">
+                    <div class="img-place client-img">
+                        <img src="<?= base_url(); ?>assets/user/img/clients/M13-01.png" alt="">
+                    </div>
+                </div> -->
+                <div class="p-3 wow zoomIn">
+                    <div class="img-place client-img">
+                        <img src="<?= base_url(); ?>assets/user/img/clients/M15-01.png" alt="">
                     </div>
                 </div>
             </div>
